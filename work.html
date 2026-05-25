@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Nat Cabrera" />
+        <meta
+            name="description"
+            content="ESG Data Visualizations — Nat Cabrera"
+        />
+        <link rel="icon" href="images/favicon.ico" />
+        <title>Work | Nat Cabrera</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap-grid.min.css"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/nat-cabrera-94a565b1"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container main-container">
+            <!-- Header -->
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h1 class="page-title">ESG Data Visualizations</h1>
+                    <p class="esg-subtitle">
+                        Mock dashboards exploring sustainability, climate, and
+                        governance data.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+            <!-- Chart 1 — Carbon Emissions Bar Chart -->
+            <div class="row esg-section">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="viz-card">
+                        <h2 class="viz-title">
+                            🌱 Carbon Emissions by Sector (2023)
+                        </h2>
+                        <p class="viz-subtitle">
+                            Annual CO₂ emissions in metric tons — top
+                            contributing industries
+                        </p>
+                        <div class="bar-chart">
+                            <div class="bar-row">
+                                <span class="bar-label">Energy</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 87%; background: #e05c5c"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">87%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">Transport</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 72%; background: #e07a5c"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">72%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">Industry</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 61%; background: #e0a85c"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">61%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">Agriculture</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 44%; background: #b8c45c"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">44%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">Buildings</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 28%; background: #5cb87a"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">28%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+            <!-- Chart 2 — ESG Score Gauges -->
+            <div class="row esg-section">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="viz-card">
+                        <h2 class="viz-title">
+                            📊 ESG Score Breakdown — S&P 500 Average
+                        </h2>
+                        <p class="viz-subtitle">
+                            Composite scores across Environmental, Social, and
+                            Governance pillars
+                        </p>
+                        <div class="row" style="margin-top: 20px">
+                            <div class="col-4">
+                                <div class="score-card">
+                                    <div
+                                        class="score-circle"
+                                        style="
+                                            background: conic-gradient(
+                                                #5cb87a 0% 68%,
+                                                #e0ecff 68% 100%
+                                            );
+                                        "
+                                    >
+                                        <div class="score-inner">
+                                            <span class="score-number">68</span>
+                                            <span class="score-label"
+                                                >/ 100</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <p class="score-title">🌱 Environmental</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="score-card">
+                                    <div
+                                        class="score-circle"
+                                        style="
+                                            background: conic-gradient(
+                                                #5c8fb8 0% 74%,
+                                                #e0ecff 74% 100%
+                                            );
+                                        "
+                                    >
+                                        <div class="score-inner">
+                                            <span class="score-number">74</span>
+                                            <span class="score-label"
+                                                >/ 100</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <p class="score-title">🤝 Social</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="score-card">
+                                    <div
+                                        class="score-circle"
+                                        style="
+                                            background: conic-gradient(
+                                                #8f5cb8 0% 55%,
+                                                #e0ecff 55% 100%
+                                            );
+                                        "
+                                    >
+                                        <div class="score-inner">
+                                            <span class="score-number">55</span>
+                                            <span class="score-label"
+                                                >/ 100</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <p class="score-title">🏛️ Governance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+            <!-- Chart 3 — Renewable Energy Progress -->
+            <div class="row esg-section">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="viz-card">
+                        <h2 class="viz-title">
+                            ⚡ Renewable Energy Adoption by Country
+                        </h2>
+                        <p class="viz-subtitle">
+                            % of total energy consumption from renewable sources
+                            (2023)
+                        </p>
+                        <div class="bar-chart">
+                            <div class="bar-row">
+                                <span class="bar-label">Norway</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 98%; background: #2396f3"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">98%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">Germany</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 59%; background: #2396f3"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">59%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">UK</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 42%; background: #2396f3"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">42%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">USA</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 21%; background: #2396f3"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">21%</span>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label">China</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="width: 29%; background: #2396f3"
+                                    ></div>
+                                </div>
+                                <span class="bar-value">29%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+
+            <!-- Chart 4 — Board Diversity -->
+            <div class="row esg-section">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="viz-card">
+                        <h2 class="viz-title">
+                            🏛️ Board Gender Diversity — Fortune 500
+                        </h2>
+                        <p class="viz-subtitle">
+                            Progress toward gender-balanced corporate boards
+                            over time
+                        </p>
+                        <div class="timeline">
+                            <div class="timeline-row">
+                                <span class="timeline-year">2015</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="
+                                            width: 19%;
+                                            background: rgba(35, 35, 216, 0.4);
+                                        "
+                                    ></div>
+                                </div>
+                                <span class="bar-value">19%</span>
+                            </div>
+                            <div class="timeline-row">
+                                <span class="timeline-year">2017</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="
+                                            width: 22%;
+                                            background: rgba(35, 35, 216, 0.55);
+                                        "
+                                    ></div>
+                                </div>
+                                <span class="bar-value">22%</span>
+                            </div>
+                            <div class="timeline-row">
+                                <span class="timeline-year">2019</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="
+                                            width: 26%;
+                                            background: rgba(35, 35, 216, 0.7);
+                                        "
+                                    ></div>
+                                </div>
+                                <span class="bar-value">26%</span>
+                            </div>
+                            <div class="timeline-row">
+                                <span class="timeline-year">2021</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="
+                                            width: 30%;
+                                            background: rgba(35, 35, 216, 0.85);
+                                        "
+                                    ></div>
+                                </div>
+                                <span class="bar-value">30%</span>
+                            </div>
+                            <div class="timeline-row">
+                                <span class="timeline-year">2023</span>
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill"
+                                        style="
+                                            width: 34%;
+                                            background: rgba(
+                                                35,
+                                                35,
+                                                216,
+                                                0.881
+                                            );
+                                        "
+                                    ></div>
+                                </div>
+                                <span class="bar-value">34%</span>
+                            </div>
+                        </div>
+                        <p class="viz-note">
+                            Women on boards as % of total board seats
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
