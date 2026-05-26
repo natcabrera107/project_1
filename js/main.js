@@ -23,7 +23,7 @@ if (about_title) {
         if (aboutIndex == about_full_text.length) {
             clearInterval(aboutTimer);
         }
-    }, 200);
+    }, 350);
 }
 
 const fadeElements = document.querySelectorAll(".fade-in");
