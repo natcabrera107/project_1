@@ -14,9 +14,10 @@ A personal portfolio homepage built with vanilla HTML5, CSS3, and ES6+ JavaScrip
 The site showcases my background, resume, interest and my future pursuits as a data professional and asipirng entrepreneur.
 
 ## Screenshot
-images/web_screen_shots/s1.png 
-images/web_screen_shots/s2.png 
-images/web_screen_shots/s3.png 
+
+images/web_screen_shots/s1.png
+images/web_screen_shots/s2.png
+images/web_screen_shots/s3.png
 
 ## resources
 
@@ -55,4 +56,5 @@ Open `http://127.0.0.1:8080` in your browser
 ## License
 
 MIT
+
 # project_1
